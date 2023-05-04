@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.travel-card {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+}
+
+.details-container {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
